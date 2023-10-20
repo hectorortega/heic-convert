@@ -1,7 +1,7 @@
 const jpegJs = require('jpeg-js');
 const { PNG } = require('pngjs');
 
-const decode = require('@freiraum/heic-decode');
+const decode = require('heic-decode');
 
 const to = {
   JPEG: ({ data, width, height, quality }) => jpegJs.encode({ data, width, height }, quality).data,
