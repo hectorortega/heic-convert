@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "@freiraum/heic-decode": "^1.1.5",
-    "jpeg-js": "^0.4.3",
-    "pngjs": "^6.0.0"
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
   },
   "engines": {
     "node": ">=8.0.0"
